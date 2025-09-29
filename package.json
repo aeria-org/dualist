@@ -24,7 +24,7 @@
   "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "^2.29.5",
-    "@commitlint/cli": "^19.8.1",
+    "@commitlint/cli": "^20.0.0",
     "@commitlint/config-conventional": "^19.8.1",
     "@types/node": "^24.1.0",
     "eslint-config-aeria": "^0.0.31",
