@@ -37,7 +37,7 @@ const pipeOutput = (proc: ChildProcessWithoutNullStreams, source: string, index:
     .pipe(process.stderr)
 }
 
-const main = () => {
+export const main = () => {
   const {
     positionals,
     values: { command = 'npm run dev' },
@@ -63,6 +63,4 @@ const main = () => {
     pipeOutput(proc, cleanSource, index)
   }
 }
-
-main()
 

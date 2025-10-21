@@ -1,3 +1,6 @@
 #!/usr/bin/env node
 
-require('../dist')
+import('../dist/cli.js').then(({ main }) => {
+  main()
+})
+

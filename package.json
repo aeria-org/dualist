@@ -1,5 +1,6 @@
 {
   "name": "dualist",
+  "type": "module",
   "version": "0.0.6",
   "description": "",
   "packageManager": "pnpm@9.1.0",
