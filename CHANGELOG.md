@@ -1,5 +1,11 @@
 # dualist
 
+## 0.0.7
+
+### Patch Changes
+
+- 9aec826: Move to ESM
+
 ## 0.0.6
 
 ### Patch Changes

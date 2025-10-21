@@ -1,7 +1,7 @@
 {
   "name": "dualist",
   "type": "module",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "packageManager": "pnpm@9.1.0",
   "main": "dist/index.js",
