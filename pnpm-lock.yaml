@@ -17,6 +17,9 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^19.8.1
         version: 19.8.1
+      '@eslint-aeria/config':
+        specifier: ^0.0.8
+        version: 0.0.8(@stylistic/eslint-plugin@2.13.0(eslint@8.57.1)(typescript@5.9.2))(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.9.2))(eslint@8.57.1)(typescript@5.9.2))(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.9.2))
       '@types/node':
         specifier: ^24.1.0
         version: 24.1.0
@@ -167,6 +170,13 @@ packages:
   '@commitlint/types@19.8.1':
     resolution: {integrity: sha512-/yCrWGCoA1SVKOks25EGadP9Pnj0oAIHGpl2wH2M2Y46dPM2ueb8wyCVOD7O3WCTkaJ0IkKvzhl1JY7+uCT2Dw==}
     engines: {node: '>=v18'}
+
+  '@eslint-aeria/config@0.0.8':
+    resolution: {integrity: sha512-USBw8hK9mf3AqzIrGq2ZW5k9hlIxsaMhWVn6A/dKWiIxdn+NjOLzgr6jOPBebnyBSB8qtB5AfNdjcFBT3p9/qA==}
+    peerDependencies:
+      '@stylistic/eslint-plugin': ^2.1.0
+      '@typescript-eslint/eslint-plugin': ^7.12.0
+      '@typescript-eslint/parser': ^7.12.0
 
   '@eslint-community/eslint-utils@4.7.0':
     resolution: {integrity: sha512-dyybb3AcajC7uha6CvhdVRJqaKyn7w2YKqKyAN37NKYgZT36w+iRb0Dymmc5qEJ549c/S31cMMSFd75bteCpCw==}
@@ -1440,6 +1450,12 @@ snapshots:
     dependencies:
       '@types/conventional-commits-parser': 5.0.1
       chalk: 5.4.1
+
+  '@eslint-aeria/config@0.0.8(@stylistic/eslint-plugin@2.13.0(eslint@8.57.1)(typescript@5.9.2))(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.9.2))(eslint@8.57.1)(typescript@5.9.2))(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.9.2))':
+    dependencies:
+      '@stylistic/eslint-plugin': 2.13.0(eslint@8.57.1)(typescript@5.9.2)
+      '@typescript-eslint/eslint-plugin': 7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.9.2))(eslint@8.57.1)(typescript@5.9.2)
+      '@typescript-eslint/parser': 7.18.0(eslint@8.57.1)(typescript@5.9.2)
 
   '@eslint-community/eslint-utils@4.7.0(eslint@8.57.1)':
     dependencies:

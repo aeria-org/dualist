@@ -27,8 +27,8 @@
     "@changesets/cli": "^2.29.5",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
+    "@eslint-aeria/config": "^0.0.8",
     "@types/node": "^24.1.0",
-    "eslint-config-aeria": "^0.0.31",
     "husky": "^9.1.7",
     "typescript": "^5.9.2"
   }
