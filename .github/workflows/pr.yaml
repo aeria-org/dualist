@@ -31,7 +31,7 @@ jobs:
   dependabot:
     runs-on: ubuntu-latest
     needs: build
-    if: github.event.pull_request.user.login == 'dependabot[bot]' && github.repository == 'minenwerfer/dualist'
+    if: github.event.pull_request.user.login == 'dependabot[bot]' && github.repository == 'aeria-org/dualist'
 
     steps:
       - name: Dependabot metadata
