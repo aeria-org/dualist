@@ -39,7 +39,7 @@ const pipeOutput = (proc: ChildProcessWithoutNullStreams, source: string, index:
 
 export const main = () => {
   const {
-    positionals,
+    positionals: sources,
     values: { command = 'npm run dev' },
   } = parseArgs({
     allowPositionals: true,
@@ -51,12 +51,10 @@ export const main = () => {
     },
   })
 
-  const sources = positionals
-
-  for( const [index, source] of sources.entries() ) {
-    const cleanSource = source.replace(/\/$/, '')
+  for( const [index, cwd] of sources.entries() ) {
+    const cleanSource = cwd.replace(/\/$/, '')
     const proc = spawn(command, {
-      cwd: source,
+      cwd,
       shell: true,
     })
 
