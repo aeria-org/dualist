@@ -18,8 +18,8 @@ importers:
         specifier: ^20.2.0
         version: 20.3.1
       '@eslint-aeria/config':
-        specifier: ^0.0.8
-        version: 0.0.8(@stylistic/eslint-plugin@2.13.0(eslint@8.57.1)(typescript@5.9.3))(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.9.3))(eslint@8.57.1)(typescript@5.9.3))(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.9.3))
+        specifier: ^0.0.9
+        version: 0.0.9(@stylistic/eslint-plugin@2.13.0(eslint@8.57.1)(typescript@5.9.3))(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.9.3))(eslint@8.57.1)(typescript@5.9.3))(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.9.3))
       '@types/node':
         specifier: ^25.0.2
         version: 25.0.6
@@ -168,8 +168,8 @@ packages:
     resolution: {integrity: sha512-VmIFV/JkBRhDRRv7N5B7zEUkNZIx9Mp+8Pe65erz0rKycXLsi8Epcw0XJ+btSeRXgTzE7DyOyA9bkJ9mn/yqVQ==}
     engines: {node: '>=v18'}
 
-  '@eslint-aeria/config@0.0.8':
-    resolution: {integrity: sha512-USBw8hK9mf3AqzIrGq2ZW5k9hlIxsaMhWVn6A/dKWiIxdn+NjOLzgr6jOPBebnyBSB8qtB5AfNdjcFBT3p9/qA==}
+  '@eslint-aeria/config@0.0.9':
+    resolution: {integrity: sha512-3ZAupHkw8MP6OIwym3bcIsoNJ7onFrjG5QcWXOKLq/nuKwvWB+7LiNyV48AH3b1Y1Z5IZDk+7DBlitfP5hSm2A==}
     peerDependencies:
       '@stylistic/eslint-plugin': ^2.1.0
       '@typescript-eslint/eslint-plugin': ^7.12.0
@@ -1454,7 +1454,7 @@ snapshots:
       '@types/conventional-commits-parser': 5.0.2
       chalk: 5.6.2
 
-  '@eslint-aeria/config@0.0.8(@stylistic/eslint-plugin@2.13.0(eslint@8.57.1)(typescript@5.9.3))(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.9.3))(eslint@8.57.1)(typescript@5.9.3))(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.9.3))':
+  '@eslint-aeria/config@0.0.9(@stylistic/eslint-plugin@2.13.0(eslint@8.57.1)(typescript@5.9.3))(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.9.3))(eslint@8.57.1)(typescript@5.9.3))(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.9.3))':
     dependencies:
       '@stylistic/eslint-plugin': 2.13.0(eslint@8.57.1)(typescript@5.9.3)
       '@typescript-eslint/eslint-plugin': 7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.9.3))(eslint@8.57.1)(typescript@5.9.3)
