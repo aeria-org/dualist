@@ -30,6 +30,6 @@
     "@eslint-aeria/config": "^0.0.9",
     "@types/node": "^25.0.2",
     "husky": "^9.1.7",
-    "typescript": "^5.9.2"
+    "typescript": "^6.0.3"
   }
 }
